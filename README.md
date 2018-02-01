@@ -13,10 +13,10 @@ O calculo é feito no browser, o source code se encontra [aqui].
 
 ### Utilização
 
-Para rodar em localhost, baixar ou clonar o repositorio e executar o comando:
+Para rodar em localhost, baixar ou clonar o repositório e executar o comando:
 
 ```sh
-python manager.py runserver
+python manage.py runserver
 ```
 
 
