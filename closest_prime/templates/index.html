@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prime</title>
+
+    {% load static %}
+    <script src="{% static 'jquery-3.3.1.js' %}"></script>  
+
+<body>
+    <p>
+        Digite um numero para que o numero primo mais proximo menor ou igual a ele seja calculado
+    </p>
+    <input type="text" id="number" value="1"/> 
+    <button id="btn" type="button"> Calcular Primo Mais Proximo</button>
+    <p id="resposta">
+        Resposta:
+    </p>
+</body>
+    <script src="{% static 'closest_prime.js' %}"></script>  
+</html>
